@@ -333,5 +333,10 @@
     "wrong": "日本語が好きをです。",
     "correct": "日本語が好きです。",
     "explanation": "好き takes が, not を. (Pattern set 6)"
+  },
+  {
+    "wrong": "\u79c1\u306f\u65e5\u672c\u8a9e\u3092\u8a71\u3057\u307e\u3059\u3067\u3059\u3002",
+    "correct": "\u79c1\u306f\u65e5\u672c\u8a9e\u3092\u8a71\u3057\u307e\u3059\u3002",
+    "explanation": "Do not stack \u307e\u3059 and \u3067\u3059 in one predicate. (Pattern set 5)"
   }
 ]
